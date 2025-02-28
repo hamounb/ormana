@@ -1,0 +1,643 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- META ============================================= -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="canonical" href=" " />
+	<!-- OG -->
+	<meta name="robots" content="index, follow">
+
+	<meta name="keywords"
+		content="Web Design, Agency, Startup, Corporate, Creative, Studio, Marketing, Portfolio, Seo, Blogging, Development, Design" />
+	<meta name="author" content="ThemeTrades" />
+	<meta name="description"
+		content="Factro is a Fully Creative Mobile Responsive HTML Template. It is designed specifically for Agency, Startup, Corporate, Creative, Studio, Marketing, Portfolio, Seo, Blogging, Development, Design or other Agencys." />
+
+	<meta property="og:url" content=" " />
+	<meta property="og:site_name" content="Factro : Construction Multipurpose HTML Template" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_us" />
+	<meta property="og:title" content="Factro : Construction Multipurpose HTML Template" />
+	<meta property="og:description"
+		content="Factro is a Fully Creative Mobile Responsive HTML Template. It is designed specifically for Agency, Startup, Corporate, Creative, Studio, Marketing, Portfolio, Seo, Blogging, Development, Design or other Agencys" />
+	<meta property="og:image" content="../../demo/preview.html" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content=" ">
+	<meta name="twitter:creator" content="@themetrades">
+	<meta name="twitter:title" content="Factro : Construction Multipurpose HTML Template">
+	<meta name="twitter:description"
+		content="Factro is a Fully Creative Mobile Responsive HTML Template. It is designed specifically for Agency, Startup, Corporate, Creative, Studio, Marketing, Portfolio, Seo, Blogging, Development, Design or other Agencys.">
+
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- FAVICONS ICON ============================================= -->
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+	<!-- PAGE TITLE HERE ============================================= -->
+	<title>
+        {% block title %}
+        
+        {% endblock title %}
+    </title>
+
+	<!-- MOBILE SPECIFIC ============================================= -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/assets.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/typography.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/shortcodes/shortcodes.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/rtl.css' %}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{% static 'assets/css/color/color-4.css' %}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{% static 'assets/vendors/scroll/scrollbar.css' %}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{% static 'assets/vendors/swiper/swiper.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/layers.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/settings.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/navigation.css' %}">
+	<!-- REVOLUTION SLIDER END -->
+</head>
+
+<body id="bg">
+	<div class="page-wraper">
+		<div id="loading-icon-bx"></div>
+		<!-- Header Top ==== -->
+		<header class="rs-nav style-3 box header">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row d-flex justify-content-between">
+						<div class="topbar-left">
+							<ul>
+								<li><a href="javascript:;"><i class="la la-phone"></i>با تماس بگیرید (+00) 286 8591</a></li>
+								<li><a href="javascript:;"><i class="la la-clock"></i>شنبه تا چهارشنبه - 9:00 بعدازظهر - 6:00
+										قبل‌ازظهر</a></li>
+								<li><a href="javascript:;"><i class="las la-envelope-open"></i>Support@website.com</a></li>
+							</ul>
+						</div>
+						<div class="topbar-right">
+							<ul>
+								<li><a href="company-history.html">تاریخچه</a></li>
+								<li><a href="blog-standard.html">اخبار</a></li>
+								<li><a href="contact-1.html">ارتباط با ما</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-extra-info d-lg-block d-none">
+				<div class="container">
+					<div class="extra-info-inner">
+						<div class="extra-logo">
+							<a href="index.html"><img src="assets/images/logo-4.png" alt=""></a>
+						</div>
+						<div class="header-contant-info">
+							<ul>
+								<li class="br">
+									<i class="fa fa-clock-o icon"></i>
+									<h5 class="title">شنبه تا جمعه</h5>
+									<p>09:00 قبل‌ازظهر - 06:00 بعدازظهر </p>
+								</li>
+								<li>
+									<i class="fa fa-envelope icon"></i>
+									<h5 class="title">آدرس ایمیل</h5>
+									<p>info@yourdomain.com</p>
+								</li>
+								<li>
+									<a href="#" class="btn radius-sm">با ما در تماس باشید</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sticky-header navbar-expand-lg">
+				<div class="menu-bar clearfix">
+					<div class="container clearfix">
+						<!-- Header Logo ==== -->
+						<div class="menu-logo d-lg-none d-table ">
+							<a href="index.html"><img src="assets/images/logo-white.png" alt=""></a>
+						</div>
+						<!-- Mobile Nav Button ==== -->
+						<button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse"
+							data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<!-- Author Nav ==== -->
+						<div class="secondary-menu">
+							<div class="secondary-inner">
+								<ul>
+									<li>
+										<a href="javascript:;" class="cart-btn">
+											<span>0</span>
+										</a>
+										<ul class="dropdown-menu cart-list">
+											<li class="cart-item">
+												<div class="media">
+													<div class="media-left">
+														<a href="#">
+															<img alt="" class="media-object" src="assets/images/product/pic1.jpg">
+														</a>
+													</div>
+													<div class="media-body">
+														<h6 class="title"><a href="#" class="media-heading">تی شرت</a></h6>
+														<span class="price">2500 تومان</span>
+														<span class="item-close">×</span>
+													</div>
+												</div>
+											</li>
+											<li class="cart-item">
+												<div class="media">
+													<div class="media-left">
+														<a href="#">
+															<img alt="" class="media-object" src="assets/images/product/pic1.jpg">
+														</a>
+													</div>
+													<div class="media-body">
+														<h6 class="title"><a href="#" class="media-heading">تی شرت</a></h6>
+														<span class="price">2200 تومان</span>
+														<span class="item-close">×</span>
+													</div>
+												</div>
+											</li>
+											<li class="cart-item">
+												<h6 class="title m-a0">کل: 47000 تومان</h6>
+											</li>
+											<li>
+												<button class="btn button-md">ادامه خرید</button>
+											</li>
+										</ul>
+									</li>
+									<li class="search-box">
+										<form action="#">
+											<input name="search" value="" type="text" class="form-control" placeholder="جستجو">
+											<button type="button"><i class="ti-search"></i></button>
+										</form>
+									</li>
+									<li class="aside-box d-none d-lg-block">
+										<a class="aside-btn contact-sidebtn" href="#">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Navigation Menu ==== -->
+						<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
+							<div class="menu-logo">
+								<a href="index.html"><img src="assets/images/logo-4.png" alt=""></a>
+							</div>
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="javascript:;">خانه<i class="fa fa-chevron-down"></i></a>
+									<ul class="sub-menu">
+										<li><a href="index.html"><span>خانه - پیشفرض</span> </a></li>
+										<li><a href="index-2.html"><span>خانه - انرژی و برق</span></a></li>
+										<li><a href="index-3.html"><span>خانه - ساخت و ساز</span></a></li>
+										<li><a href="index-4.html"><span>خانه - کشاورزی</span></a></li>
+									</ul>
+								</li>
+								<li class="has-mega-menu "><a href="javascript:;">صفحات<i class="fa fa-chevron-down"></i></a>
+									<ul class="mega-menu">
+										<li><a href="javascript:;">صفحات</a>
+											<ul>
+												<li><a href="about-1.html"><span>درباره ما - ساده</span></a></li>
+												<li><a href="about-2.html"><span>درباره ما - کلاسیک</span></a></li>
+												<li><a href="about-3.html"><span>درباره ما - مدرن</span></a></li>
+												<li><a href="awards.html"><span>جوایز</span></a></li>
+												<li><a href="job-career.html"><span>مشاغل و حرفه ها</span></a></li>
+												<li><a href="partners.html"><span>شرکا</span></a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:;">صفحات</a>
+											<ul>
+												<li><a href="pricing.html"><span>قیمت‌گذاری</span></a></li>
+												<li><a href="appointment.html"><span>قرار ملاقات</span></a></li>
+												<li><a href="services-1.html"><span>خدمات - ساده</span></a></li>
+												<li><a href="services-2.html"><span>خدمات - کلاسیک</span></a></li>
+												<li><a href="services-3.html"><span>خدمات - مدرن</span></a></li>
+												<li><a href="services-details.html"><span>جزییات خدمات</span></a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:;">صفحات</a>
+											<ul>
+												<li><a href="case-study.html"><span>کیس استادی</span></a></li>
+												<li><a href="case-details.html"><span>جزییات کیس استادی</span></a></li>
+												<li><a href="company-history.html"><span>تاریخچه شرکت</span></a></li>
+												<li><a href="team.html"><span>تیم</span></a></li>
+												<li><a href="error-404.html"><span>خطا 404</span></a></li>
+												<li><a href="client.html"><span>مشتریان</span></a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:;">صفحات</a>
+											<ul>
+												<li><a href="coming-soon.html"><span>به زودی</span></a></li>
+												<li><a href="faq-1.html"><span>سوالات متداول 1</span></a></li>
+												<li><a href="faq-2.html"><span>سوالات متداول 2</span></a></li>
+												<li><a href="contact-1.html"><span>ارتباط با ما 1</span></a></li>
+												<li><a href="contact-2.html"><span>ارتباط با ما 2</span></a></li>
+												<li><a href="get-in-touch.html"><span>با ما در تماس باشید</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="javascript:;">راه‌حل<i class="fa fa-chevron-down"></i></a>
+									<ul class="sub-menu">
+										<li class="add-menu-left">
+											<ul>
+												<li><a href="solution-agricultural-engineering.html"><span>مهندسی کشاورزی</span> </a></li>
+												<li><a href="solution-chemical-research-engineering.html"><span>مهندسی تحقیقاتی شیمی</span></a>
+												</li>
+												<li><a href="solution-material-science-and-engineering.html"><span> علوم و مهندسی مواد
+														</span></a></li>
+												<li><a href="solution-mechanical-engineering.html"><span> مهندسی مکانیک </span></a></li>
+												<li><a href="solution-oil-and-gas.html"><span> نفت و گاز </span></a></li>
+												<li><a href="solution-power-and-energy.html"><span> نیرو و انرژی </span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="has-mega-menu "><a href="javascript:;"> پروژه‌ها <i class="fa fa-chevron-down"></i></a>
+									<ul class="mega-menu">
+										<li><a href="javascript:;"> گرید پروژه‌ها </a>
+											<ul>
+												<li><a href="projects-grid-2.html"><span> گرید پروژه‌ 2</span></a></li>
+												<li><a href="projects-grid-3.html"><span> گرید پروژه‌ 3</span></a></li>
+												<li><a href="projects-grid-4.html"><span> گرید پروژه‌ 4</span></a></li>
+												<li><a href="projects-grid-wide.html"><span> گرید پروژه‌ عریض</span></a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:;">پروژه ها ماسونری</a>
+											<ul>
+												<li><a href="projects-masonry-grid-2.html"><span>گرید ماسونری 2</span></a></li>
+												<li><a href="projects-masonry-grid-3.html"><span>گرید ماسونری 3</span></a></li>
+												<li><a href="projects-masonry-grid-4.html"><span>گرید ماسونری 4</span></a></li>
+												<li><a href="projects-masonry-grid-wide.html"><span>گرید ماسونری عریض</span></a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:;">استایل پروژه</a>
+											<ul>
+												<li><a href="projects-carousel-1.html"><span>کروسول پروژه 1</span></a></li>
+												<li><a href="projects-carousel-2.html"><span>کروسول پروژه 2</span></a></li>
+												<li><a href="projects-carousel-3.html"><span>کروسول پروژه 3</span></a></li>
+												<li><a href="projects-carousel-4.html"><span>کروسول پروژه 4</span></a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:;">پروژه منفرد</a>
+											<ul>
+												<li><a href="projects-single-1.html"><span>پروژه منفرد 1</span></a></li>
+												<li><a href="projects-single-2.html"><span>پروژه منفرد 2</span></a></li>
+												<li><a href="projects-single-3.html"><span>پروژه منفرد 3</span></a></li>
+												<li><a href="projects-single-4.html"><span>پروژه منفرد 4</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="javascript:;">فروشگاه<i class="fa fa-chevron-down"></i></a>
+									<ul class="sub-menu">
+										<li class="add-menu-left">
+											<ul>
+												<li><a href="shop.html"><span>فروشگاه</span> </a></li>
+												<li><a href="shop-sidebar.html"><span>سایدبار فروشگاه</span></a></li>
+												<li><a href="shop-cart.html"><span>سبد خرید</span></a></li>
+												<li><a href="shop-checkout.html"><span>ادامه خرید</span></a></li>
+												<li><a href="shop-details.html"><span>جزییات محصول</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="javascript:;">بلاگ<i class="fa fa-chevron-down"></i></a>
+									<ul class="sub-menu left">
+										<li><a href="blog-standard.html"><span>بلاگ - استاندارد</span></a></li>
+										<li><a href="blog-classic.html"><span>بلاگ - کلاسیک</span></a></li>
+										<li><a href="blog-classic-sidebar.html"><span>بلاگ کلاسیک سایدبار</span></a></li>
+										<li><a href="blog-list.html"><span>بلاگ لیست سایدبار</span></a></li>
+										<li><a href="blog-masonry.html"><span>ماسونری</span></a></li>
+										<li><a href="blog-details-sidebar.html"><span>جزییات بلاگ</span></a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="nav-social-link">
+								<a href="javascript:;"><i class="fa fa-facebook"></i></a>
+								<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+								<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Navigation Menu END ==== -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header Top END ==== -->
+		<div class="contact-sidebar content-scroll">
+			<div class="inner">
+				<div class="logo">
+					<img src="assets/images/logo-4.png" alt="">
+				</div>
+				<h4 class="title">ارتباط با ما برای گرفتن اطلاعاتی</h4>
+				<ul class="contact-infolist">
+					<li>
+						<img src="assets/images/icon/contact/skin4/icon1.png" alt="" />
+						<h6 class="contact-title">شماره تماس</h6>
+						<p>+001 123 456 790 <br />(02) 3424 44 00</p>
+					</li>
+					<li>
+						<img src="assets/images/icon/contact/skin4/icon2.png" alt="" />
+						<h6 class="contact-title">آدرس ایمیل</h6>
+						<a href="javascript:;">info@yourdomain.com</a>
+						<a href="javascript:;">example@support.com</a>
+					</li>
+					<li>
+						<img src="assets/images/icon/contact/skin4/icon3.png" alt="" />
+						<h6 class="contact-title">آدرس</h6>
+						<p>یک آدرس فرضی در این قسمت قرار دارد و دارای چند خط است</p>
+					</li>
+				</ul>
+				<h4 class="title">با ما در تماس باشید</h4>
+				<form class="contact-bx ajax-form" action="contact.php">
+					<div class="ajax-message"></div>
+					<div class="row placeani">
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>نام شما</label>
+									<input name="name" type="text" required class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>آدرس ایمیل</label>
+									<input name="ایمیل" type="ایمیل" class="form-control" required>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>تایپ پیام</label>
+									<textarea name="message" rows="4" class="form-control" required></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div>
+								<div class="input-group">
+									<div class="g-recaptcha" data-sitekey="6Lf2gYwUAAAAAJLxwnZTvpJqbYFWqVyzE-8BWhVe"
+										data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+									<input class="form-control d-none" style="display:none;" data-recaptcha="true" required
+										data-error="کپچا را پر کنید">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<button name="submit" type="submit" value="Submit" class="btn button-md"> ارسال پیام</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="contact-sidebtn close">
+			<i class="ti-close"></i>
+		</div>
+		<!-- Content -->
+            {% block content %}
+            
+            {% endblock content %}
+		<!-- Content END-->
+		<!-- Footer ==== -->
+		<footer class="footer-style2">
+			<div class="footer-top bt0">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-3 col-md-5 col-sm-6">
+							<div class="widget footer_widget">
+								<h5 class="footer-title">راهکار های ما</h5>
+								<ul>
+									<li><a href="solution-material-science-and-engineering.html"><span>مهندسی</span></a></li>
+									<li><a href="solution-oil-and-gas.html"><span> نفت و گاز </span></a></li>
+									<li><a href="solution-power-and-energy.html"><span> نیرو و انرژی </span></a></li>
+									<li><a href="solution-mechanical-engineering.html"><span> مهندسی مکانیک </span></a></li>
+									<li><a href="solution-agricultural-engineering.html"><span> فرآوری کشاورزی </span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 col-md-7 col-sm-6">
+							<div class="widget list-2">
+								<h5 class="footer-title">شرکت</h5>
+								<ul>
+									<li><a href="index.html">خانه</a></li>
+									<li><a href="about-1.html">درباره ما</a></li>
+									<li><a href="company-history.html">اخبار شرکت</a></li>
+									<li><a href="projects-single-1.html">پروژه‌ها</a></li>
+									<li><a href="case-study.html">کیس استادی</a></li>
+									<li><a href="faq-1.html">سوالات متداول</a></li>
+									<li><a href="awards.html">جوایز</a></li>
+									<li><a href="services-1.html">خدمات</a></li>
+									<li><a href="contact-1.html">ارتباط با ما</a></li>
+									<li><a href="team.html">تیم ما</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+							<div class="widget widget_info">
+								<h5 class="footer-title">استودیو ما را ببینید</h5>
+								<p> تجزیه و تحلیل اخبار هفتگی و برش اجزایی <br /> توصیه هایی در مورد جستجوی شغل. </p>
+								<form class="subscribe-form m-b20"
+									action="http://factro.themetrades.com/html/demo-rtl/assets/script/mailchamp.php" method="post">
+									<div class="ajax-message"></div>
+									<div class="input-group">
+										<input name="ایمیل" required="required" class="form-control" placeholder="آدرس ایمیل" type="ایمیل">
+										<div class="input-group-append">
+											<button name="submit" value="Submit" type="submit" class="btn btn-block radius-sm">اشتراک</button>
+										</div>
+									</div>
+								</form>
+								<ul class="list-inline ft-social-bx">
+									<li><a href="javascript:;" class="btn button-sm"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="javascript:;" class="btn button-sm"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="javascript:;" class="btn button-sm"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="javascript:;" class="btn button-sm"><i class="fa fa-google-plus"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-left">
+							<p class="m-b0">کپی رایت © 1400
+								<img src="assets/images/logo-white.png" class="footer-b-logo m-lr5" width="50" alt="" />
+								همه حقوق محفوظ است
+							</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-right">
+							<ul class="link-inline">
+								<li><a href="index.html">خانه</a></li>
+								<li><a href="about-1.html">درباره ما</a></li>
+								<li><a href="faq-1.html">سوالات متداول</a></li>
+								<li><a href="contact-1.html">ارتباط با ما</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer END ==== -->
+		<button class="back-to-top fa fa-chevron-up"></button>
+	</div>
+
+	<!-- External JavaScripts -->
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery-migrate.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/wow/wow.js' %}"></script>
+	<script src="{% static 'assets/vendors/bootstrap/js/popper.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/bootstrap/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/bootstrap-select/bootstrap-select.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/magnific-popup/magnific-popup.js' %}"></script>
+	<script src="{% static 'assets/vendors/counter/waypoints-min.js' %}"></script>
+	<script src="{% static 'assets/vendors/counter/counterup.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/imagesloaded/imagesloaded.js' %}"></script>
+	<script src="{% static 'assets/vendors/masonry/masonry.js' %}"></script>
+	<script src="{% static 'assets/vendors/masonry/filter.js' %}"></script>
+	<script src="{% static 'assets/vendors/owl-carousel/owl.carousel.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.scroller.js' %}"></script>
+	<script src="{% static 'assets/vendors/progress-bar/jquery.appear.js' %}"></script>
+	<script src="{% static 'assets/vendors/progress-bar/jquery.skillbar.js' %}"></script>
+	<script src="{% static 'assets/vendors/scroll/scrollbar.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/swiper/swiper.min.js' %}"></script>
+	<script src="{% static 'assets/js/functions.js' %}"></script>
+	<script src="{% static 'assets/js/contact.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
+	<script>
+		jQuery(document).ready(function () {
+
+			jQuery('.get-member-info').on('click', function () {
+				jQuery('.team-members-section .team-section').removeClass('active');
+				jQuery('[data-info=' + $(this).attr('data-id') + ']').addClass('active');
+
+			});
+			jQuery('.close-team').on('click', function () {
+				jQuery('.team-members-section .team-section').removeClass('active');
+			});
+
+			var ttrevapi;
+			var tpj = jQuery;
+			if (tpj("#rev_slider_490_1").revolution == undefined) {
+				revslider_showDoubleJqueryError("#rev_slider_490_1");
+			} else {
+				revapi490 = tpj("#rev_slider_490_1").show().revolution({
+					sliderType: "hero",
+					jsFileLocation: "revolution/js/",
+					sliderLayout: "fullwidth",
+					dottedOverlay: "none",
+					delay: 9000,
+					navigation: {
+					},
+					responsiveLevels: [1240, 1024, 778, 480],
+					visibilityLevels: [1240, 1024, 778, 480],
+					gridwidth: [1240, 1024, 778, 480],
+					gridheight: [600, 500, 500, 500],
+					lazyType: "none",
+					parallax: {
+						type: "mouse",
+						origo: "slidercenter",
+						speed: 2000,
+						levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+						type: "mouse",
+					},
+					shadow: 0,
+					spinner: "off",
+					autoHeight: "off",
+					disableProgressBar: "on",
+					hideThumbsOnMobile: "off",
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					debugMode: false,
+					fallbacks: {
+						simplifyAll: "off",
+						disableFocusListener: false,
+					}
+				});
+			}
+		});	
+	</script>
+	<script>
+		var galleryThumbs = new Swiper('.service-gallery-thumbs', {
+			spaceBetween: 0,
+			slidesPerView: 4,
+			freeMode: true,
+			speed: 1000,
+			watchSlidesVisibility: true,
+			watchSlidesProgress: true,
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+				},
+				576: {
+					slidesPerView: 2,
+				},
+				768: {
+					slidesPerView: 3,
+				},
+				1024: {
+					slidesPerView: 4,
+				},
+			}
+		});
+
+
+		var galleryTop = new Swiper('.service-gallery-top', {
+			spaceBetween: 0,
+			speed: 1000,
+			parallax: true,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			thumbs: {
+				swiper: galleryThumbs
+			}
+		});
+
+		var clinetThumbs = new Swiper('.clinet-thumbs', {
+			spaceBetween: 10,
+			slidesPerView: 4,
+			freeMode: true,
+			speed: 1000,
+			watchSlidesVisibility: true,
+			watchSlidesProgress: true,
+		});
+		var clientTop = new Swiper('.client-area-box', {
+			spaceBetween: 0,
+			speed: 1000,
+			parallax: true,
+			thumbs: {
+				swiper: clinetThumbs
+			}
+		});
+	</script>
+</body>
+
+</html>
