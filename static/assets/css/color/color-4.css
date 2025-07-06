@@ -1,8 +1,8 @@
 /*===================== 	Premery bg color =====================*/
 
 :root {
-    --primary: #347928;
-    --sc-primary: #6b9515;
+    --primary: #1e5034;
+    --sc-primary: #1e5034;
 }
 
 
@@ -23,7 +23,7 @@
 .pagination-bx.primary .pagination > li > span,
 button.back-to-top,
 .rev-btn {
-    background-color: #347928;
+    background-color: #1e5034;
 }
 
 
@@ -90,7 +90,7 @@ h5 a:hover,
 h6 a:hover,
 .btn.outline,
 .btn-link:hover {
-    color: #347928;
+    color: #1e5034;
 }
 
 
@@ -122,10 +122,10 @@ h6 a:hover,
 .account-head:after {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#424bff+0,84b81b+100 */
 	background: #424bff; /* Old browsers */
-	background: -moz-linear-gradient(top, #424bff 0%, #347928 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #424bff 0%,#347928 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #424bff 0%,#347928 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424bff', endColorstr='#347928',GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, #424bff 0%, #1e5034 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #424bff 0%,#1e5034 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #424bff 0%,#1e5034 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424bff', endColorstr='#1e5034',GradientType=0 ); /* IE6-9 */
     /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -150,7 +150,7 @@ h6 a:hover,
     color: #6b9515;
 }
 button.back-to-top:hover{
-    background-color: #347928;
+    background-color: #1e5034;
     color: #fff;
 }
 
@@ -167,8 +167,8 @@ button.back-to-top:hover{
 
 /* important color */
 .bg-primary{
-	background-color: #347928!important;
+	background-color: #1e5034!important;
 }
 .text-primary{
-	color: #347928!important;
+	color: #1e5034!important;
 }

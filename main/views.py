@@ -3,7 +3,7 @@ from django import views
 
 # Create your views here.
 
-a = True
+a = False
 
 class IndexView(views.View):
 
@@ -11,3 +11,15 @@ class IndexView(views.View):
         if a:
             return render(request, "main/coming-soon.html")
         return render(request, "main/index.html")
+    
+
+class ProductsView(views.View):
+
+    def get(self, request):
+        return render(request, "main/products.html")
+    
+
+class AboutUsView(views.View):
+
+    def get(self, request):
+        return render(request, "main/about-us.html")

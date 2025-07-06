@@ -199,7 +199,7 @@
 .cart-btn {
 	width: 27px;
 	height: 34px;
-	border: 2px solid #020d26;
+	border: 2px solid #d0b669;
 	display: inline-block;
 	font-size: 12px;
 	position: relative;
@@ -212,11 +212,11 @@
 	position: absolute;
 	width: 12px;
 	height: 6px;
-	border: 2px solid #020d26;
-	-moz-border: 2px solid #020d26;
-	-webkit-border: 2px solid #020d26;
-	-ms-border: 2px solid #020d26;
-	-o-border: 2px solid #020d26;
+	border: 2px solid #d0b669;
+	-moz-border: 2px solid #d0b669;
+	-webkit-border: 2px solid #d0b669;
+	-ms-border: 2px solid #d0b669;
+	-o-border: 2px solid #d0b669;
 	border-radius: 0px 0px 12px 12px;
 	-moz-border-radius: 0px 0px 12px 12px;
 	-webkit-border-radius: 0px 0px 12px 12px;
@@ -242,7 +242,7 @@
 =================================*/
 
 .top-bar {
-	background-color: #020d26;
+	background-color: #d0b669;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 	color: #fff;
 	padding: 11px 0;
@@ -267,7 +267,7 @@
 }
 
 .topbar-left ul li a, .topbar-right ul li a {
-	color: #c3cbdd;
+	color: #1e5034;
 	font-size: 15px;
 	display: flex;
 	align-items: center;
@@ -512,7 +512,7 @@
 
 .menu-links .nav>li>a {
 	border-radius: 0px;
-	color: #020d26;
+	color: #d0b669;
 	font-size: 17px;
 	padding: 28px 10px 27px 10px;
 	cursor: pointer;
@@ -971,7 +971,7 @@
 }
 
 .cart-list.dropdown-menu .title {
-	color: #020d26;
+	color: #d0b669;
 	font-size: 16px;
 	margin-bottom: 5px;
 	font-weight: 600;
@@ -1915,7 +1915,7 @@
 	margin-bottom: 10px;
 	line-height: 55px;
 	font-weight: 500;
-	color: #020d26;
+	color: #d0b669;
 }
 
 .page-banner h1.text-white {
@@ -2569,7 +2569,7 @@ ol.comment-list li.comment p {
 }
 
 ol.comment-list li.comment .reply a {
-	background: #020d26;
+	background: #d0b669;
 	padding: 6px 15px;
 	display: inline-block;
 	border-radius: 0;
@@ -3521,12 +3521,12 @@ footer .widget_services ul li:hover {
 }
 
 .footer-style2 .footer-top {
-	background: #020d26;
+	background: #d0b669;
 	font-weight: 400;
 }
 
 .footer-style2 .footer-bottom {
-	background: #020d26;
+	background: #d0b669;
 	font-size: 14px;
 	color: rgba(255, 255, 255, 0.6);
 	font-weight: 400;
@@ -3976,7 +3976,7 @@ footer.footer-white .btn {
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-	color: #020d26;
+	color: #d0b669;
 	font-weight: 500;
 	font-size: 16px;
 }
@@ -5321,7 +5321,7 @@ content: "";
 	z-index: -1;
 	width: 50%;
 	right: 0;
-	background: #020d26;
+	background: #d0b669;
 	height: 100%;
 	top: 0;
 	position: absolute;
@@ -6037,7 +6037,7 @@ transform-origin: left top;
 	width: 0;
 	height: 2px;
 	position: absolute;
-	background: #020d26;
+	background: #d0b669;
 	bottom: 0;
 	right: 0;
 	transform-origin: right;
@@ -6349,7 +6349,7 @@ transform-origin: left top;
 }
 
 .contact-infolist li .contact-title {
-	color: #020d26;
+	color: #d0b669;
 	font-size: 20px;
 	line-height: 28px;
 	font-weight: 600;
@@ -6465,7 +6465,7 @@ transform-origin: left top;
 
 .content-info {
 	padding: 30px;
-	background: #020d26;
+	background: #d0b669;
 	color: #fff;
 }
 
@@ -6561,7 +6561,7 @@ transform-origin: left top;
 .feature-bx2 {
 	padding: 50px 30px 80px 30px;
 	border-radius: 0;
-	background: #020d26;
+	background: #d0b669;
 	margin-bottom: 30px;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -7647,7 +7647,7 @@ transform-origin: left top;
 }
 
 .split-box:before {
-	background-color: #020d26;
+	background-color: #d0b669;
 	z-index: 1;
 	-webkit-transform: translateX(-101%);
 	-ms-transform: translateX(-101%);
@@ -7754,7 +7754,7 @@ transform-origin: left top;
 	width: 45px;
 	height: 45px;
 	display: inline-block;
-	background: #020d26;
+	background: #d0b669;
 	color: #fff;
 	line-height: 45px;
 	text-align: center;
@@ -8509,7 +8509,7 @@ Shop Filter Mobile
 }
 
 .portfolio-box.style-3 .portfolio-info, .portfolio-box.style-1 .portfolio-info {
-	background: #020d26;
+	background: #d0b669;
 	padding: 20px 20px;
 }
 
@@ -8612,7 +8612,7 @@ Shop Filter Mobile
 	position: absolute;
 	width: 100%;
 	height: 55px;
-	background: #020d26;
+	background: #d0b669;
 	bottom: 0;
 	z-index: 2;
 	text-align: center;
@@ -8844,7 +8844,7 @@ Shop Filter Mobile
 }
 
 .mission-tab-bx .sub-title {
-	color: #020d26;
+	color: #d0b669;
 	text-align: left;
 	font-weight: 500;
 	opacity: 0.95;
@@ -9041,7 +9041,7 @@ Shop Filter Mobile
 	font-size: 80px;
 	font-weight: 600;
 	display: block;
-	color: #020d26;
+	color: #d0b669;
 	line-height: 100px;
 }
 
@@ -9049,7 +9049,7 @@ Shop Filter Mobile
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #020d26;
+	color: #d0b669;
 	border-top: 3px solid var(--primary);
 	width: 100%;
 	display: block;
@@ -9098,7 +9098,7 @@ Shop Filter Mobile
 	font-size: 22px;
 	line-height: 44px;
 	border: 3px solid;
-	color: #020d26;
+	color: #d0b669;
 	margin: 0 3px;
 }
 
@@ -9167,7 +9167,7 @@ Shop Filter Mobile
 
 .process-box .process-btn {
 	display: block;
-	background: #020d26;
+	background: #d0b669;
 	text-transform: uppercase;
 	padding: 13px 65px 13px 15px;
 	color: #fff;
@@ -9932,7 +9932,7 @@ Shop Filter Mobile
 		display: none;
 	}
 	.client-appoint-box .ajax-form {
-		background: #020d26;
+		background: #d0b669;
 		padding: 60px 38px 0px 38px;
 		margin: 50px -38px 0;
 	}
