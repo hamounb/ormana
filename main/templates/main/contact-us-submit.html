@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}
+ارسال موفق | شرکت توسعه اورمان درخشان مانا
+{% endblock title %}
+
+{% block content %}
+    <div class="page-wraper">
+		<div class="account-form error-404">
+			<div class="account-form-inner">
+				<div class="account-container">
+					<div class="error-page">
+						<h2 class="error-title">
+							<span>0</span>
+							<span>0</span>
+							<span>1</span>
+							<span></span>
+						</h2>
+						<h3>پیام شما با موفقیت ثبت شد</h3>
+						<h5>کابر گرامی، با تشکر از ارسال فرم و ثبت آن، همکاران ما در سریع‌ترین زمان ممکن با شما تماس خواهند گرفت
+						</h5>
+						<div class="">
+							<a href="{% url 'main:index' %}" class="btn button-md m-b15 m-l5">صفحه اصلی</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

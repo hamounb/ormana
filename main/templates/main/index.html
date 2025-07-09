@@ -261,7 +261,55 @@
                 </div>
             </div>
         </div>
-        <div class="section-area section-sp1 bg-white" style="background-image:url('{% static 'assets/images/spl2.png' %}'); background-size: 100%; background-repeat: no-repeat">
+        <div class="section-area section-sp1 bg-white d-xl-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp m-md-b30" data-wow-delay="0.3s">
+                        <div class="feature-container feature-bx2" style="background-color:#d0b669;">
+                            <div class="feature-lg text-white m-b20">
+                                <span class="icon-cell"><i class="ti-world"></i></span>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="ttr-tilte" style="color:#5b5b5b">استحکام بالا</h4>
+                                <p style="color:#696969">
+                                    مقاوم در برابر ضربه و خط و خش، استحکام بالادر برابر گرما و سرما (نسوز و مقاوم تا زیر 50 درجه سانتیگراد)، مقاومت بالا در برابر وزن های فوق سنگین در کف تریلی (بیش از 100 تن ظرفیت تحملی)
+                                </p>
+                                <a href="services-details.html" class="feature-btn"><i class="la la-long-arrow-alt-right"></i></a>
+                            </div>
+                            <i class="ti-world bg-icon"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp m-md-b30" data-wow-delay="0.6s">
+                        <div class="feature-container feature-bx2" style="background-color:#d0b669;">
+                            <div class="feature-lg text-white m-b20">
+                                <span class="icon-cell"><i class="ti-shield"></i></span>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="ttr-tilte" style="color:#5b5b5b">استفاده درهمه‌جا</h4>
+                                <p style="color:#696969">مقاوم در برابر رشد و گسترش میکروارگانیسم ها، کاربرد راحت در مصارف اجرایی و نگهداری در شرایط آسان، طراحی ویژه رویه باعث ایجاد اصطکاک مفید و جلوگیری از سر خوردگی می شود </p>
+                                <a href="services-details.html" class="feature-btn"><i class="la la-long-arrow-alt-right"></i></a>
+                            </div>
+                            <i class="ti-shield bg-icon"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 wow fadeInUp m-md-b30" data-wow-delay="0.9s">
+                        <div class="feature-container feature-bx2" style="background-color:#d0b669;">
+                            <div class="feature-lg text-white m-b20">
+                                <span class="icon-cell"><i class="ti-panel"></i></span>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="ttr-tilte" style="color:#5b5b5b">غیرقابل نفوذ</h4>
+                                <p style="color:#696969">  ضد اسید و ضد لک،<br> 100 درصد ضد آب و رطوبت و بدون نفوذپذیری،<br>سازگار با محیط زیست،<br> عمر طولانی</p>
+                                <a href="services-details.html" class="feature-btn"><i class="la la-long-arrow-alt-right"></i></a>
+                            </div>
+                            <i class="ti-panel bg-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-area section-sp1 bg-white d-none d-xl-block" style="background-image:url('{% static 'assets/images/background/bg.png' %}'); background-size: 35%; background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 wow fadeInUp m-md-b30" data-wow-delay="0.3s">
@@ -460,8 +508,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <form class="ajax-form" action="contact.php">
-                            <div class="ajax-message"></div>
+                        <form action="{% url 'main:contact-us-submit' %}" method="post">
+                            {% csrf_token %}
                             <div class="heading-bx text-white">
                                 <h6 class="title-ext m-b0">قرار ملاقات</h6>
                                 <h2 class="title-head m-b0">یک قرار ملاقات رایگان با ما</h2>
@@ -470,7 +518,7 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <div class="input-group input-bx">
-                                            <input name="name" type="text" required class="form-control valid-character"
+                                            <input name="name" type="text" required class="form-control"
                                                 placeholder="نام شما">
                                         </div>
                                     </div>
@@ -478,33 +526,21 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <div class="input-group input-bx">
-                                            <input name="phone" type="text" required class="form-control int-value"
-                                                placeholder="شماره تماس شما">
+                                            <input name="mobile" type="text" required class="form-control"
+                                                placeholder="شماره موبایل شما">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <div class="input-group input-bx">
-                                            <textarea name="message" rows="4" class="form-control" placeholder="پیام خود را تایپ کنید"
+                                            <textarea name="text" rows="4" class="form-control" placeholder="پیام خود را تایپ کنید"
                                                 required></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <div class="g-recaptcha" data-sitekey="6Lf2gYwUAAAAAJLxwnZTvpJqbYFWqVyzE-8BWhVe"
-                                                data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback">
-                                            </div>
-                                            <input class="form-control d-none" style="display:none;" data-recaptcha="true" required
-                                                data-error="کپچا را پر کنید">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <button name="submit" type="submit" value="Submit" class="btn button-md"> ارسال
-                                        پیام</button>
+                                    <input type="submit" value="ارسال پیام" class="btn button-md">
                                 </div>
                             </div>
                         </form>
