@@ -22,6 +22,12 @@ class ProductsView(views.View):
         return render(request, "main/products.html")
     
 
+class ProductsUseView(views.View):
+
+    def get(self, request):
+        return render(request, "main/products-use.html")
+    
+
 class AboutUsView(views.View):
 
     def get(self, request):
