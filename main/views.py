@@ -16,6 +16,14 @@ class IndexView(views.View):
         return render(request, "main/index.html")
     
 
+class IndexEnView(views.View):
+
+    def get(self, request):
+        if a:
+            return render(request, "main/coming-soon.html")
+        return render(request, "main/index-en.html")
+    
+
 class ProductsView(views.View):
 
     def get(self, request):

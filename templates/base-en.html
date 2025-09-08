@@ -1,0 +1,491 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- META ============================================= -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="canonical" href=" " />
+	<!-- OG -->
+	<meta name="robots" content="index, follow">
+
+	<meta name="keywords"
+		content="ورق،پلای وود،SPL،Plywood" />
+	<meta name="author" content="تولید کننده ورق‌های پلای وود با روکش SPL" />
+	<meta name="description"
+		content="شرکت توسعه اورمان درخشان مانا با نام تجاری اورمانا اولین و بزرگترین تولید کننده ورق‌های پلای وود با روکش SPL با ضخامت‌های مختلف" />
+
+	<meta property="og:site_name" content="Ormana : Plywood " />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_us" />
+	<meta property="og:title" content="Ormana : ورق‌های پلای وود با روکش SPL" />
+	<meta property="og:description"
+		content="شرکت توسعه اورمان درخشان مانا با نام تجاری اورمانا اولین و بزرگترین تولید کننده ورق‌های پلای وود با روکش SPL با ضخامت‌های مختلف"/>
+
+	<meta name="format-detection" content="telephone=+989121225265">
+
+	<!-- FAVICONS ICON ============================================= -->
+	<link rel="icon" href="{% static 'assets/images/logo.png' %}" type="image/x-icon" />
+
+	<!-- PAGE TITLE HERE ============================================= -->
+	<title>
+        {% block title %}
+        
+        {% endblock title %}
+    </title>
+
+	<!-- MOBILE SPECIFIC ============================================= -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/assets.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/typography2.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/shortcodes/shortcodes.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{% static 'assets/css/color/color-4.css' %}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{% static 'assets/vendors/scroll/scrollbar.css' %}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{% static 'assets/vendors/swiper/swiper.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/layers.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/settings.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/vendors/revolution/css/navigation.css' %}">
+	<!-- REVOLUTION SLIDER END -->
+</head>
+
+<body id="bg">
+	<div class="page-wraper">
+		<!-- Header Top ==== -->		
+		<header class="rs-nav style-3 box header">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row d-flex justify-content-between">
+						<div class="topbar-right">
+							<ul>
+								<li><a href="#">News</a></li>
+							</ul>
+						</div>
+						<div class="topbar-left">
+							<ul>
+								<li><a href="javascript:;"><i class="la la-phone"></i>Call Now: +989121225265</a></li>
+								<li><a href="javascript:;"><i class="la la-clock"></i>Saturday - Thursday 8:00 to 20:00
+										</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-extra-info d-lg-block d-none">
+				<div class="container">
+					<div class="extra-info-inner">
+						<div class="extra-logo">
+							<a href="index.html"><img src="{% static 'assets/images/logo-g.png' %}" alt="" width="70"></a>
+						</div>
+						<div class="header-contant-info">
+							<ul>
+								<li style="text-align:left">
+									<i class="fa fa-envelope icon"></i>
+									<h5 class="title" style="color:#1e5034">Email</h5>
+									<p>info@ormana.co</p>
+								</li>
+								<li>
+									<a href="#" class="btn radius-sm contact-sidebtn">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sticky-header navbar-expand-lg">
+				<div class="menu-bar clearfix">
+					<div class="container clearfix">
+						<!-- Header Logo ==== -->
+						<div class="menu-logo d-lg-none d-table">
+							<a href="{% url 'main:index' %}"><img src="{% static 'assets/images/logo-y.png' %}" alt="" style="width:35%"></a>
+						</div>
+						<!-- Mobile Nav Button ==== -->
+						<button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse"
+							data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<!-- Author Nav ==== -->
+						<div class="secondary-menu">
+							<div class="secondary-inner">
+								<ul>
+									<li class="search-box">
+										<form action="#">
+											<input name="search" value="" type="text" class="form-control" placeholder="search">
+											<button type="button"><i class="ti-search"></i></button>
+										</form>
+									</li>
+									<li class="aside-box d-none d-lg-block">
+										<a class="aside-btn contact-sidebtn" href="#">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Navigation Menu ==== -->
+						<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
+							<div class="menu-logo">
+								<a href="index.html"><img src="assets/images/logo-3.png" alt=""></a>
+							</div>
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="{% url 'main:index' %}">Home</a>
+								</li>
+								<li class="mega-menu "><a href="{% url 'main:products' %}">Products</a>
+								</li>
+								<li><a href="{% url 'main:about-us' %}">About Us</a>
+								</li>
+							</ul>
+							<div class="nav-social-link">
+								<a href="javascript:;"><i class="fa fa-facebook"></i></a>
+								<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+								<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Navigation Menu END ==== -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header Top END ==== -->
+		<div class="contact-sidebar content-scroll">
+			<div class="inner">
+				<div class="logo">
+					<img src="{% static 'assets/images/logo-g.png' %}" alt="">
+				</div>
+				<h4 class="title">ارتباط با ما </h4>
+				<ul class="contact-infolist">
+					<li>
+						<img src="assets/images/icon/contact/skin4/icon1.png" alt="" />
+						<h6 class="contact-title">شماره تماس</h6>
+						<p>09121225265<br />0443321137</p>
+					</li>
+					<li>
+						<img src="assets/images/icon/contact/skin4/icon2.png" alt="" />
+						<h6 class="contact-title">آدرس ایمیل</h6>
+						<a href="javascript:;">info@ormana.co</a>
+						<a href="javascript:;">contact@ormana.co</a>
+						<a href="javascript:;">ormana.co@gmail.com</a>
+					</li>
+					<li>
+						<img src="assets/images/icon/contact/skin4/icon3.png" alt="" />
+						<h6 class="contact-title">آدرس</h6>
+						<p>ارومیه : چهارراه مافی، پلاک 160</p>
+					</li>
+				</ul>
+				<h4 class="title">با ما در تماس باشید</h4>
+				<form class="contact-bx" action="{% url 'main:contact-us-submit' %}" method="post">
+					{% csrf_token %}
+					<div class="row placeani">
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>نام شما</label>
+									<input name="name" type="text" required class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>شماره موبایل</label>
+									<input name="mobile" type="text" class="form-control" required>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group">
+									<label>تایپ پیام</label>
+									<textarea name="text" rows="4" class="form-control" required></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<input type="submit" value="ارسال پیام" class="btn button-md">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="contact-sidebtn close">
+			<i class="ti-close"></i>
+		</div>
+		<!-- Content -->
+            {% block content %}
+            
+            {% endblock content %}
+		<!-- Content END-->
+		<!-- Footer ==== -->
+		<footer class="footer-style2">
+			<div class="footer-top bt0">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-3 col-md-5 col-sm-6">
+							<div class="widget list-2">
+								<h5 class="footer-title">Orman Derakhshan Mana Company</h5>
+								<ul style="text-align:left">
+									<li><a href="{% url 'main:index' %}">Home</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="{% url 'main:products' %}">Products</a></li>
+									<li><a href="#">Jobs</a></li>
+									<li><a href="{% url 'main:about-us' %}">About Us</a></li>
+									<li><a href="#">Certificates</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 col-md-7 col-sm-6">
+						</div>
+						<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+							<div class="widget widget_info">
+								<h5 class="footer-title">Get Newest</h5>
+								<p> Sales <br/></p>
+								<form class="subscribe-form m-b20"
+									action="#" method="post">
+									<div class="ajax-message"></div>
+									<div class="input-group">
+										<input name="email" required="required" class="form-control" placeholder="Email Address" type="ایمیل">
+										<div class="input-group-append">
+											<button name="submit" value="Submit" type="submit" class="btn btn-block radius-sm">join</button>
+										</div>
+									</div>
+								</form>
+								<ul class="list-inline ft-social-bx">
+									<li><a href="#" class="btn button-sm"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="#" class="btn button-sm"><i class="fa fa-telegram"></i></a></li>
+									<li><a href="#" class="btn button-sm"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#" class="btn button-sm"><i class="fa fa-google-plus"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 text-center text-md-right">
+							<p class="m-b0"><img src="{% static 'assets/images/logo-y.png' %}" class="footer-b-logo m-lr5" width="30" alt="logo" />
+							All Rights Reserved
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer END ==== -->
+		<button class="back-to-top fa fa-chevron-up"></button>
+	</div>
+
+	<!-- External JavaScripts -->
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery-migrate.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/wow/wow.js' %}"></script>
+	<script src="{% static 'assets/vendors/bootstrap/js/popper.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/bootstrap/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/bootstrap-select/bootstrap-select.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/magnific-popup/magnific-popup.js' %}"></script>
+	<script src="{% static 'assets/vendors/counter/waypoints-min.js' %}"></script>
+	<script src="{% static 'assets/vendors/counter/counterup.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/imagesloaded/imagesloaded.js' %}"></script>
+	<script src="{% static 'assets/vendors/masonry/masonry.js' %}"></script>
+	<script src="{% static 'assets/vendors/masonry/filter.js' %}"></script>
+	<script src="{% static 'assets/vendors/owl-carousel/owl.carousel.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.scroller.js' %}"></script>
+	<script src="{% static 'assets/vendors/progress-bar/jquery.appear.js' %}"></script>
+	<script src="{% static 'assets/vendors/progress-bar/jquery.skillbar.js' %}"></script>
+	<script src="{% static 'assets/vendors/scroll/scrollbar.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/swiper/swiper.min.js' %}"></script>
+	<script src="{% static 'assets/js/functions.js' %}"></script>
+	<script src="{% static 'assets/js/contact.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+	<script src="{% static 'assets/vendors/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
+	<script>
+		jQuery(document).ready(function () {
+
+			jQuery('.get-member-info').on('click', function () {
+				jQuery('.team-members-section .team-section').removeClass('active');
+				jQuery('[data-info=' + $(this).attr('data-id') + ']').addClass('active');
+
+			});
+			jQuery('.close-team').on('click', function () {
+				jQuery('.team-members-section .team-section').removeClass('active');
+			});
+
+			var ttrevapi;
+			var tpj = jQuery;
+			if (tpj("#rev_slider_486_1").revolution == undefined) {
+				revslider_showDoubleJqueryError("#rev_slider_486_1");
+			} else {
+				ttrevapi = tpj("#rev_slider_486_1").show().revolution({
+					sliderType: "standard",
+					jsFileLocation: "revolution/js/",
+					sliderLayout: "fullwidth",
+					dottedOverlay: "none",
+					delay: 9000,
+					navigation: {
+						keyboardNavigation: "on",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation: "off",
+						onHoverStop: "off",
+						touch: {
+							touchenabled: "on",
+							swipe_threshold: 75,
+							swipe_min_touches: 1,
+							swipe_direction: "horizontal",
+							drag_block_vertical: false
+						},
+						arrows: {
+							style: "hades",
+							enable: true,
+							hide_onmobile: false,
+							hide_onleave: false,
+							tmp: '<div class="tp-arr-allwrapper">	<div class="tp-arr-imgholder"></div></div>',
+							left: {
+								h_align: "left",
+								v_align: "center",
+								h_offset: 10,
+								v_offset: 0
+							},
+							right: {
+								h_align: "right",
+								v_align: "center",
+								h_offset: 10,
+								v_offset: 0
+							}
+						},
+						thumbnails: {
+							style: "hades",
+							enable: true,
+							width: 50,
+							height: 50,
+							min_width: 100,
+							wrapper_padding: 5,
+							wrapper_color: "transparent",
+							wrapper_opacity: "1",
+							tmp: '<span class="tp-thumb-img-wrap">  <span class="tp-thumb-image"></span></span>',
+							visibleAmount: 5,
+							hide_onmobile: false,
+							hide_onleave: false,
+							direction: "horizontal",
+							span: false,
+							position: "inner",
+							space: 5,
+							h_align: "center",
+							v_align: "bottom",
+							h_offset: 0,
+							v_offset: 20
+						}
+					},
+					viewPort: {
+						enable: true,
+						outof: "pause",
+						visible_area: "80%",
+						presize: false
+					},
+					responsiveLevels: [1240, 1024, 778, 480],
+					visibilityLevels: [1240, 1024, 778, 480],
+					gridwidth: [1240, 1024, 778, 480],
+					gridheight: [700, 500, 500, 500],
+					lazyType: "none",
+					parallax: {
+						type: "scroll",
+						origo: "enterpoint",
+						speed: 400,
+						levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 46, 47, 48, 49, 50, 55],
+						type: "scroll",
+					},
+					shadow: 0,
+					spinner: "off",
+					stopLoop: "off",
+					stopAfterLoops: -1,
+					stopAtSlide: -1,
+					shuffle: "off",
+					autoHeight: "off",
+					hideThumbsOnMobile: "off",
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					debugMode: false,
+					fallbacks: {
+						simplifyAll: "off",
+						nextSlideOnWindowFocus: "off",
+						disableFocusListener: false,
+					}
+				});
+			}
+		});	
+	</script>
+	<script>
+		var galleryThumbs = new Swiper('.service-gallery-thumbs', {
+			spaceBetween: 0,
+			slidesPerView: 4,
+			freeMode: true,
+			speed: 1000,
+			watchSlidesVisibility: true,
+			watchSlidesProgress: true,
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+				},
+				576: {
+					slidesPerView: 2,
+				},
+				768: {
+					slidesPerView: 3,
+				},
+				1024: {
+					slidesPerView: 4,
+				},
+			}
+		});
+
+
+		var galleryTop = new Swiper('.service-gallery-top', {
+			spaceBetween: 0,
+			speed: 1000,
+			parallax: true,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			thumbs: {
+				swiper: galleryThumbs
+			}
+		});
+
+		var clinetThumbs = new Swiper('.clinet-thumbs', {
+			spaceBetween: 10,
+			slidesPerView: 4,
+			freeMode: true,
+			speed: 1000,
+			watchSlidesVisibility: true,
+			watchSlidesProgress: true,
+		});
+		var clientTop = new Swiper('.client-area-box', {
+			spaceBetween: 0,
+			speed: 1000,
+			parallax: true,
+			thumbs: {
+				swiper: clinetThumbs
+			}
+		});
+	</script>
+</body>
+
+</html>
