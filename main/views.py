@@ -30,16 +30,34 @@ class ProductsView(views.View):
         return render(request, "main/products.html")
     
 
+class ProductsEnView(views.View):
+
+    def get(self, request):
+        return render(request, "main/products-en.html")
+    
+
 class ProductsUseView(views.View):
 
     def get(self, request):
         return render(request, "main/products-use.html")
     
 
+class ProductsUseEnView(views.View):
+
+    def get(self, request):
+        return render(request, "main/products-use-en.html")
+    
+
 class AboutUsView(views.View):
 
     def get(self, request):
         return render(request, "main/about-us.html")
+    
+
+class AboutUsEnView(views.View):
+
+    def get(self, request):
+        return render(request, "main/about-us-en.html")
     
 
 class ContactUsSubmitView(views.View):

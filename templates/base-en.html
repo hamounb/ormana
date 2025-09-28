@@ -12,17 +12,17 @@
 	<meta name="robots" content="index, follow">
 
 	<meta name="keywords"
-		content="ورق،پلای وود،SPL،Plywood" />
-	<meta name="author" content="تولید کننده ورق‌های پلای وود با روکش SPL" />
+		content=" SPL،Plywood" />
+	<meta name="author" content="Manufacturer of plywood sheets with SPL coating" />
 	<meta name="description"
-		content="شرکت توسعه اورمان درخشان مانا با نام تجاری اورمانا اولین و بزرگترین تولید کننده ورق‌های پلای وود با روکش SPL با ضخامت‌های مختلف" />
+		content="Ormana Development Company, operating under the brand name Ormana, is the first and largest manufacturer of plywood sheets with SPL coating in various thicknesses." />
 
 	<meta property="og:site_name" content="Ormana : Plywood " />
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_us" />
-	<meta property="og:title" content="Ormana : ورق‌های پلای وود با روکش SPL" />
+	<meta property="og:title" content="Ormana : SPL-coated plywood sheets" />
 	<meta property="og:description"
-		content="شرکت توسعه اورمان درخشان مانا با نام تجاری اورمانا اولین و بزرگترین تولید کننده ورق‌های پلای وود با روکش SPL با ضخامت‌های مختلف"/>
+		content="Ormana Development Company, operating under the brand name Ormana, is the first and largest manufacturer of SPL-coated plywood sheets in various thicknesses"/>
 
 	<meta name="format-detection" content="telephone=+989121225265">
 
@@ -58,16 +58,16 @@
 			<div class="top-bar">
 				<div class="container">
 					<div class="row d-flex justify-content-between">
-						<div class="topbar-right">
-							<ul>
-								<li><a href="#">News</a></li>
-							</ul>
-						</div>
 						<div class="topbar-left">
 							<ul>
-								<li><a href="javascript:;"><i class="la la-phone"></i>Call Now: +989121225265</a></li>
+								<li><a href="tel:+989121225265"><i class="la la-phone"></i>Call Now: +989121225265</a></li>
 								<li><a href="javascript:;"><i class="la la-clock"></i>Saturday - Thursday 8:00 to 20:00
 										</a></li>
+							</ul>
+						</div>
+						<div class="topbar-right">
+							<ul>
+								<li><a href="{% url 'main:index' %}"><img class="ml-2" src="{% static 'assets/images/ir-flag.png' %}" width="30">Persian</a></li>
 							</ul>
 						</div>
 					</div>
@@ -77,14 +77,14 @@
 				<div class="container">
 					<div class="extra-info-inner">
 						<div class="extra-logo">
-							<a href="index.html"><img src="{% static 'assets/images/logo-g.png' %}" alt="" width="70"></a>
+							<a href="{% url 'main:index-en' %}"><img src="{% static 'assets/images/logo-g.png' %}" alt="" width="70"></a>
 						</div>
 						<div class="header-contant-info">
 							<ul>
 								<li style="text-align:left">
 									<i class="fa fa-envelope icon"></i>
 									<h5 class="title" style="color:#1e5034">Email</h5>
-									<p>info@ormana.co</p>
+									<a href="mailto:info@ormana.co">info@ormana.co</a>
 								</li>
 								<li>
 									<a href="#" class="btn radius-sm contact-sidebtn">Contact Us</a>
@@ -99,7 +99,7 @@
 					<div class="container clearfix">
 						<!-- Header Logo ==== -->
 						<div class="menu-logo d-lg-none d-table">
-							<a href="{% url 'main:index' %}"><img src="{% static 'assets/images/logo-y.png' %}" alt="" style="width:35%"></a>
+							<a href="{% url 'main:index-en' %}"><img src="{% static 'assets/images/logo-y.png' %}" alt="" style="width:35%"></a>
 						</div>
 						<!-- Mobile Nav Button ==== -->
 						<button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse"
@@ -135,11 +135,13 @@
 								<a href="index.html"><img src="assets/images/logo-3.png" alt=""></a>
 							</div>
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="{% url 'main:index' %}">Home</a>
+								<li class="active"><a href="{% url 'main:index-en' %}">Home</a>
 								</li>
-								<li class="mega-menu "><a href="{% url 'main:products' %}">Products</a>
+								<li class="mega-menu "><a href="{% url 'main:products-en' %}">Products</a>
 								</li>
-								<li><a href="{% url 'main:about-us' %}">About Us</a>
+								<li class="mega-menu "><a href="{% url 'main:products-use-en' %}">Applications</a>
+								</li>
+								<li><a href="{% url 'main:about-us-en' %}">About Us</a>
 								</li>
 							</ul>
 							<div class="nav-social-link">
@@ -159,34 +161,34 @@
 				<div class="logo">
 					<img src="{% static 'assets/images/logo-g.png' %}" alt="">
 				</div>
-				<h4 class="title">ارتباط با ما </h4>
-				<ul class="contact-infolist">
+				<h4 class="title text-right">Contact Us </h4>
+				<ul class="contact-infolist text-right">
 					<li>
 						<img src="assets/images/icon/contact/skin4/icon1.png" alt="" />
-						<h6 class="contact-title">شماره تماس</h6>
+						<h6 class="contact-title">Phone Numbers</h6>
 						<p>09121225265<br />0443321137</p>
 					</li>
 					<li>
 						<img src="assets/images/icon/contact/skin4/icon2.png" alt="" />
-						<h6 class="contact-title">آدرس ایمیل</h6>
+						<h6 class="contact-title">Email Addresses</h6>
 						<a href="javascript:;">info@ormana.co</a>
 						<a href="javascript:;">contact@ormana.co</a>
 						<a href="javascript:;">ormana.co@gmail.com</a>
 					</li>
 					<li>
 						<img src="assets/images/icon/contact/skin4/icon3.png" alt="" />
-						<h6 class="contact-title">آدرس</h6>
-						<p>ارومیه : چهارراه مافی، پلاک 160</p>
+						<h6 class="contact-title">Address</h6>
+						<p>Urmia, Iran</p>
 					</li>
 				</ul>
-				<h4 class="title">با ما در تماس باشید</h4>
+				<h4 class="title text-right">Get a Free Qoute</h4>
 				<form class="contact-bx" action="{% url 'main:contact-us-submit' %}" method="post">
 					{% csrf_token %}
 					<div class="row placeani">
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
-									<label>نام شما</label>
+									<label>Full Name</label>
 									<input name="name" type="text" required class="form-control">
 								</div>
 							</div>
@@ -194,21 +196,21 @@
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
-									<label>شماره موبایل</label>
-									<input name="mobile" type="text" class="form-control" required>
+									<label>Email</label>
+									<input name="email" type="email" class="form-control" required>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
-									<label>تایپ پیام</label>
+									<label>Message</label>
 									<textarea name="text" rows="4" class="form-control" required></textarea>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-12">
-							<input type="submit" value="ارسال پیام" class="btn button-md">
+						<div class="col-lg-12 text-right">
+							<input type="submit" value="send" class="btn button-md">
 						</div>
 					</div>
 				</form>
@@ -229,20 +231,20 @@
 					<div class="row">
 						<div class="col-12 col-lg-3 col-md-5 col-sm-6">
 							<div class="widget list-2">
-								<h5 class="footer-title">Orman Derakhshan Mana Company</h5>
+								<h5 class="footer-title text-right">Orman Derakhshan Mana Development Company</h5>
 								<ul style="text-align:left">
-									<li><a href="{% url 'main:index' %}">Home</a></li>
+									<li><a href="{% url 'main:index-en' %}">Home</a></li>
 									<li><a href="#">FAQ</a></li>
-									<li><a href="{% url 'main:products' %}">Products</a></li>
+									<li><a href="{% url 'main:products-en' %}">Products</a></li>
 									<li><a href="#">Jobs</a></li>
-									<li><a href="{% url 'main:about-us' %}">About Us</a></li>
+									<li><a href="{% url 'main:about-us-en' %}">About Us</a></li>
 									<li><a href="#">Certificates</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 col-md-7 col-sm-6">
 						</div>
-						<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+						<div class="col-12 col-lg-5 col-md-12 col-sm-12 text-right">
 							<div class="widget widget_info">
 								<h5 class="footer-title">Get Newest</h5>
 								<p> Sales <br/></p>

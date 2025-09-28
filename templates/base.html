@@ -61,14 +61,14 @@
 					<div class="row d-flex justify-content-between">
 						<div class="topbar-left">
 							<ul>
-								<li><a href="javascript:;"><i class="la la-phone"></i>تماس بگیرید 09121225265</a></li>
+								<li><a href="tel:+989121225265"><i class="la la-phone"></i>تماس بگیرید 09121225265</a></li>
 								<li><a href="javascript:;"><i class="la la-clock"></i>شنبه تا پنجشنبه - 8:00 الی 20:00
 										</a></li>
 							</ul>
 						</div>
 						<div class="topbar-right">
 							<ul>
-								<li><a href="#">اخبار</a></li>
+								<li><a href="{% url 'main:index-en' %}">English<img class="ml-2" src="{% static 'assets/images/en-flag.png' %}" width="30"></a></li>
 							</ul>
 						</div>
 					</div>
@@ -90,7 +90,7 @@
 								<li>
 									<i class="fa fa-envelope icon"></i>
 									<h5 class="title" style="color:#1e5034">آدرس ایمیل</h5>
-									<p>info@ormana.co</p>
+									<a href="mailto:info@ormana.co">info@ormana.co</a>
 								</li>
 								<li>
 									<a href="#" class="btn radius-sm contact-sidebtn">با ما در تماس باشید</a>
